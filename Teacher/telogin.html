@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Login</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+
+<div class="login-container">
+    <h2>Teacher Login</h2>
+    <form action="admin_login.php" method="POST">
+        <input type="text" name="username" placeholder="Admin Username" required>
+        <input type="password" name="password" id="password" placeholder="Password" required>
+        <input type="checkbox" id="show-password" class="box"> 
+        <label for="show-password" id="pas">Show Password</label>
+        <input type="submit" value="Login">
+    </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

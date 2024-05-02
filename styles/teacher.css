@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.departments {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.department {
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.department h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.students, .attendance {
+    margin-top: 20px;
+}
+
+.students ul, .attendance table {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.students ul li {
+    margin-bottom: 5px;
+}
+
+.students ul li label {
+    display: block;
+}
+
+.attendance table {
+    width: 100%;
+}
+
+.attendance th, .attendance td {
+    padding: 8px;
+    text-align: center;
+}
+
+.attendance th {
+    background-color: #f0f0f0;
+}
+
+.attendance tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
